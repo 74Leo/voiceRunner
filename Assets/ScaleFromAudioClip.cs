@@ -19,6 +19,8 @@ public class ScaleFromAudioClip : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float loudness = detector.GetLoudnessFromAudioClip(source.timeSamples, source.clip)
+        float loudness = detector.GetLoudnessFromAudioClip(source.timeSamples, source.clip);
+
+        transform.localScale = Vector3.left(minScale, maxScale, loudness);
     }
 }
