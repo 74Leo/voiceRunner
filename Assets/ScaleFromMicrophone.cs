@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ScaleFromAudioClip : MonoBehaviour
+public class ScaleFromMicrophone : MonoBehaviour
 {
 
     public AudioSource source;
@@ -22,11 +22,12 @@ public class ScaleFromAudioClip : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float loudness = detector.GetLoudnessFromAudioClip(source.timeSamples, source.clip) * loudnessSensibility;
+        float loudness = detector.GetLoudnessFromMicrophone() * loudnessSensibility;
 
         if (loudness < threshold)
             loudness = 0;
 
         transform.localScale = Vector3.Lerp(minScale, maxScale, loudness);
     }
+    
 }
