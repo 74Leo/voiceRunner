@@ -9,6 +9,8 @@ public class Options : MonoBehaviour
     bool visible = false;
 
     public Dropdown DResolution;
+    public Dropdown DQuality;
+    public Dropdown DFPSLimit;
 
     public AudioSource audioSource;
     public Slider slider;
@@ -70,6 +72,56 @@ public class Options : MonoBehaviour
                 break;
             case 13:
                 Screen.SetResolution(7680, 4320, true);
+                break;
+        }
+    }
+
+    public void SetQuality()
+    {
+        switch (DQuality.value)
+        {
+            case 0:
+                QualitySettings.SetQualityLevel(DQuality.value);
+                break;
+            case 1:
+                QualitySettings.SetQualityLevel(DQuality.value);
+                break;
+            case 2:
+                QualitySettings.SetQualityLevel(DQuality.value);
+                break;
+        }
+    }
+
+    public void SetFPSLimit()
+    {
+        switch (DFPSLimit.value)
+        {
+            case 0:
+                Application.targetFrameRate = 30;
+                break;
+            case 1:
+                Application.targetFrameRate = 60;
+                break;
+            case 2:
+                Application.targetFrameRate = 90;
+                break;
+            case 3:
+                Application.targetFrameRate = 120;
+                break;
+            case 4:
+                Application.targetFrameRate = 144;
+                break;
+            case 5:
+                Application.targetFrameRate = 165;
+                break;
+            case 6:
+                Application.targetFrameRate = 240;
+                break;
+            case 7:
+                Application.targetFrameRate = 360;
+                break;
+            case 8:
+                Application.targetFrameRate = -1;
                 break;
         }
     }
