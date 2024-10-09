@@ -28,6 +28,8 @@ public class CarSteering2D : MonoBehaviour
     {
         float loudness = detector.GetLoudnessFromMicrophone() * loudnessSensibility;
 
+        Debug.Log("Loudness: " + loudness);
+
         if (loudness > 5)
         {
             moveSpeed = 10f;

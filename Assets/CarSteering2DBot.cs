@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CarSteering2D : MonoBehaviour
+public class CarSteering2DBot : MonoBehaviour
 {
 
     [SerializeField]
