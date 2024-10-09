@@ -7,12 +7,10 @@ public class CarSteering2D : MonoBehaviour
     Rigidbody2D rb;
 
     [SerializeField]
-    float accelerationPower = 10f;
+    float accelerationPower = 5f; // vitesse pour avancer
     [SerializeField]
-    float steeringPower = -10f;
-    float steeringAmount, speed, direction;
-
-
+    float steeringPower = 5f; // sensibilité du volant 
+    float steeringAmount, direction;
 
     // Start is called before the first frame update
     void Start()
@@ -29,14 +27,13 @@ public class CarSteering2D : MonoBehaviour
 
     void FixedUpdate()
     {
-
-        steeringAmount = -Input.GetAxis("Horizontal");
-        speed = Input.GetAxis("Vertical") * accelerationPower;
+        steeringAmount = -Input.GetAxis("Horizontal"); // Cette ligne permet a l'utilisateur de pouvoir tourner le volant 
         direction = Mathf.Sign(Vector2.Dot(rb.velocity, rb.GetRelativeVector(Vector2.up)));
+
         rb.rotation += steeringAmount * steeringPower * rb.velocity.magnitude * direction;
 
-        rb.AddRelativeForce(Vector2.up * speed);
+        rb.AddForce(transform.up * accelerationPower); // avancer en automatique
 
-        rb.AddRelativeForce(-Vector2.right * rb.velocity.magnitude * steeringAmount / 2);
+        rb.AddRelativeForce(-Vector2.right * rb.velocity.magnitude * steeringAmount / 2); // pour déraper un +
     }
 }
