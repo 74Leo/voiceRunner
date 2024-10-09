@@ -16,7 +16,13 @@ public class Options : MonoBehaviour
     public Slider slider;
     public Text TxtVolume;
 
-    private void Start() => SliderChange();
+    public Text GPUInfo;
+
+    private void Start() 
+    {
+        SliderChange();
+        DisplayGPUInfo();
+    }
     
     void Update()
     {
@@ -124,5 +130,19 @@ public class Options : MonoBehaviour
         audioSource.volume = slider.value;
         TxtVolume.text = "Volume " + (audioSource.volume * 100).ToString("00") + "%";
         Debug.Log("Volume ajusté à : " + (audioSource.volume * 100).ToString("00") + "%");
+    }
+
+    private void DisplayGPUInfo()
+    {
+        GPUInfo.text += "Carte graphique : " + SystemInfo.graphicsDeviceName + "\n";
+        GPUInfo.text += "Fabricant GPU : " + SystemInfo.graphicsDeviceVendor + "\n";
+        GPUInfo.text += "API Graphique : " + SystemInfo.graphicsDeviceVersion + "\n";
+        GPUInfo.text += "VRAM disponible : " + SystemInfo.graphicsMemorySize + " Mo\n";
+        GPUInfo.text += "Résolution actuelle : " + Screen.currentResolution.width + " x " + Screen.currentResolution.height + " @ " + Screen.currentResolution.refreshRate + "Hz\n";
+        GPUInfo.text += "Processeur : " + SystemInfo.processorType + "\n";
+        GPUInfo.text += "Cœurs logiques : " + SystemInfo.processorCount + "\n";
+        GPUInfo.text += "RAM Système : " + SystemInfo.systemMemorySize + " Mo\n";
+        GPUInfo.text += "Système d'exploitation : " + SystemInfo.operatingSystem + "\n";
+        Debug.Log("Informations sur le GPU affichées.");
     }
 }
