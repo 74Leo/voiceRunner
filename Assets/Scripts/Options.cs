@@ -24,11 +24,13 @@ public class Options : MonoBehaviour
         {
             visible = !visible;
             Panel.SetActive(visible);
+            Debug.Log("Panel de l'options est maintenant " + (visible ? "visible" : "caché"));
         }
     }
 
     public void SetResolution()
     {
+        Debug.Log("Changement de résolution à l'index : " + DResolution.value);
         switch (DResolution.value)
         {
             case 0:
@@ -78,22 +80,13 @@ public class Options : MonoBehaviour
 
     public void SetQuality()
     {
-        switch (DQuality.value)
-        {
-            case 0:
-                QualitySettings.SetQualityLevel(DQuality.value);
-                break;
-            case 1:
-                QualitySettings.SetQualityLevel(DQuality.value);
-                break;
-            case 2:
-                QualitySettings.SetQualityLevel(DQuality.value);
-                break;
-        }
+        QualitySettings.SetQualityLevel(DQuality.value);
+        Debug.Log("Changement de qualité à l'index : " + DQuality.value);
     }
 
     public void SetFPSLimit()
     {
+        Debug.Log("Changement de limite de FPS à l'index : " + DFPSLimit.value);
         switch (DFPSLimit.value)
         {
             case 0:
@@ -130,5 +123,6 @@ public class Options : MonoBehaviour
     {
         audioSource.volume = slider.value;
         TxtVolume.text = "Volume " + (audioSource.volume * 100).ToString("00") + "%";
+        Debug.Log("Volume ajusté à : " + (audioSource.volume * 100).ToString("00") + "%");
     }
 }
