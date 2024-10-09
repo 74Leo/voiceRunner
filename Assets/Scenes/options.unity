@@ -1373,6 +1373,16 @@ MonoBehaviour:
       m_Image: {fileID: 0}
     - m_Text: 2560x1600
       m_Image: {fileID: 0}
+    - m_Text: 2560x1440
+      m_Image: {fileID: 0}
+    - m_Text: 3440x1440
+      m_Image: {fileID: 0}
+    - m_Text: 3840x2160
+      m_Image: {fileID: 0}
+    - m_Text: 5120x2880
+      m_Image: {fileID: 0}
+    - m_Text: 7680x4320
+      m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:

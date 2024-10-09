@@ -56,6 +56,21 @@ public class Options : MonoBehaviour
             case 8:
                 Screen.SetResolution(2560, 1600, true);
                 break;
+            case 9:
+                Screen.SetResolution(2560, 1440, true);
+                break;
+            case 10:
+                Screen.SetResolution(3440, 1440, true);
+                break;
+            case 11:
+                Screen.SetResolution(3840, 2160, true);
+                break;
+            case 12:
+                Screen.SetResolution(5120, 2880, true);
+                break;
+            case 13:
+                Screen.SetResolution(7680, 4320, true);
+                break;
         }
     }
 
