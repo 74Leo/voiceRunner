@@ -18,7 +18,7 @@ public class CarSteering2D : MonoBehaviour
     public AudioLoudnessDetection detector;
 
     public float loudnessSensibility = 100;
-    public float threshold = 0.1f;
+    public float threshold = 5f;
 
     // Start is called before the first frame update
     void Start()
@@ -32,30 +32,30 @@ public class CarSteering2D : MonoBehaviour
     {
         float loudness = detector.GetLoudnessFromMicrophone() * loudnessSensibility;
 
-        if (loudness > 5)
+        // Utilisation du switch pour gérer les différents niveaux de loudness
+        switch (loudness)
         {
-            accelerationPower = 10f;
+            case > 20:
+                accelerationPower = 25f;
+                break;
+            case > 15:
+                accelerationPower = 20f;
+                break;
+            case > 10:
+                accelerationPower = 15f;
+                break;
+            case > 5:
+                accelerationPower = 10f;
+                break;
+            default:
+                accelerationPower = 5f;
+                break;
         }
-        if(loudness > 10){
-            accelerationPower = 15f;
-        }
-        if(loudness > 15){
-            accelerationPower = 20f;
-        }
-        if(loudness > 20)
-        {
-            accelerationPower = 25f;
-        }
-        else
-        {
-            accelerationPower = 5f;
-        }
-        
+
         if (loudness < threshold)
             loudness = 0;
 
-        
-        // transform.localScale = Vector3.Lerp(minScale, maxScale, loudness);
+        transform.localScale = Vector3.Lerp(minScale, maxScale, loudness);
     }
 
     void FixedUpdate()
