@@ -4,36 +4,38 @@ using UnityEngine;
 
 public class CarSteering2D : MonoBehaviour
 {
-    Rigidbody2D rb;
 
     [SerializeField]
-    float accelerationPower = 5f; // vitesse pour avancer
+    Transform[] Points; // Points à suivre
     [SerializeField]
-    float steeringPower = 5f; // sensibilité du volant 
-    float steeringAmount, direction;
+    private float moveSpeed = 2f; // Vitesse de déplacement
+    private int pointsIndex = 0; // Index du point actuel
 
     // Start is called before the first frame update
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
-        rb.gravityScale = 0;
+        transform.position = Points[pointsIndex].transform.position;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (pointsIndex <= Points.Length - 1)
+        {
 
+            transform.position = Vector2.MoveTowards(transform.position, Points[pointsIndex].transform.position, moveSpeed * Time.deltaTime);  // Déplacer la voiture vers le prochain point
+
+
+            if (transform.position == Points[pointsIndex].transform.position)   // Passer au point suivant si on atteint le point actuel
+            {
+                pointsIndex += 1;
+            }
+
+            if (pointsIndex == Points.Length)
+            {
+                pointsIndex = 0;
+            }
+        }
     }
 
-    void FixedUpdate()
-    {
-        steeringAmount = -Input.GetAxis("Horizontal"); // Cette ligne permet a l'utilisateur de pouvoir tourner le volant 
-        direction = Mathf.Sign(Vector2.Dot(rb.velocity, rb.GetRelativeVector(Vector2.up)));
-
-        rb.rotation += steeringAmount * steeringPower * rb.velocity.magnitude * direction;
-
-        rb.AddForce(transform.up * accelerationPower); // avancer en automatique
-
-        rb.AddRelativeForce(-Vector2.right * rb.velocity.magnitude * steeringAmount / 2); // pour déraper un +
-    }
 }
