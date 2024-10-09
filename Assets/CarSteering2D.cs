@@ -30,7 +30,11 @@ public class CarSteering2D : MonoBehaviour
 
         Debug.Log("Loudness: " + loudness);
 
-        if (loudness > 5)
+        goal = loudness - loudnessToGo;
+
+        absgoal = Mathf.Abs(goal);
+
+        if (2> loudness > 5)
         {
             moveSpeed = 10f;
         }
@@ -73,5 +77,6 @@ public class CarSteering2D : MonoBehaviour
             }
         }
     }
+
 
 }

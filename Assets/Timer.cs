@@ -5,6 +5,7 @@ using TMPro;
 
 public class Timer : MonoBehaviour
 {
+    public int loudnessToGo;
     [SerializeField] TextMeshProUGUI timerText;
     [SerializeField] float remainingTime;
 
@@ -18,6 +19,7 @@ public class Timer : MonoBehaviour
      else if (remainingTime < 0)
      {
         remainingTime = 0;
+        loudnessToGo = Random.Range(20, 41);
      }
      int minutes = Mathf.FloorToInt(remainingTime / 60);
      int seconds = Mathf.FloorToInt(remainingTime % 60);
