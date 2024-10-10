@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class CarSteering2D : MonoBehaviour
 {
+    public Timer timer;
 
+    public float loudness;
     [SerializeField]
     Transform[] Points; // Points à suivre
     [SerializeField]
@@ -26,33 +28,26 @@ public class CarSteering2D : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float loudness = detector.GetLoudnessFromMicrophone() * loudnessSensibility;
+        loudness = detector.GetLoudnessFromMicrophone() * loudnessSensibility;
+        int loudnessToGo = timer.loudnessToGo;
 
         Debug.Log("Loudness: " + loudness);
 
-        goal = loudness - loudnessToGo;
+        float goal = loudnessToGo - loudness;
 
-        absgoal = Mathf.Abs(goal);
+        float absGoal = Mathf.Abs(goal);
 
-        if (2> loudness > 5)
+        if (absGoal <= 2)
         {
             moveSpeed = 10f;
         }
-        if (loudness > 10)
+        else if (absGoal <= 5)
         {
-            moveSpeed = 15f;
-        }
-        if (loudness > 15)
-        {
-            moveSpeed = 20f;
-        }
-        if (loudness > 20)
-        {
-            moveSpeed = 25f;
+            moveSpeed = 5f;
         }
         else
         {
-            moveSpeed = 5f;
+            moveSpeed = 2f;
         }
 
         if (loudness < threshold)
