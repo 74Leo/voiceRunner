@@ -64,7 +64,7 @@ public class CarSteering2D : MonoBehaviour
             transform.position = Vector2.MoveTowards(transform.position, Points[pointsIndex].transform.position, moveSpeed * Time.deltaTime);  // Déplacer la voiture vers le prochain point
 
 
-            if (Vector2.Distance(transform.position, Points[pointsIndex].transform.position) < 0.25f)  // Passer au point suivant si on atteint le point actuel
+            if (Vector2.Distance(transform.position, Points[pointsIndex].transform.position) < 0.25f)   // Passer au point suivant si on atteint le point actuel
             {
                 pointsIndex += 1;
             }
