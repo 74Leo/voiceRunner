@@ -5,3 +5,18 @@ PrefabImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+
+
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scripts.meta
+guid: 43eac1bc8282b834ca4ffcb2917c44a9
+folderAsset: yes
+DefaultImporter:
+========
+guid: 0db3a2a7934b6a7439450c0437b02832
+PrefabImporter:
+>>>>>>>> 8cfa459 (changement_circuit):Assets/prefab/25695063-pixel-art-illustration-fusee-pixelise-fusee-fusee-espace-icone-pixelise-pour-le-pixel-art-jeu-et-icone-pour-site-internet-et-video-jeu-vieux-ecole-retro-vectoriel-removeb.prefab.meta
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
