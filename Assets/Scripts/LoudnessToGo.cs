@@ -1,9 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
-public class Loudness : MonoBehaviour
+
+public class LoudnessToGo : MonoBehaviour
 {
+    public Timer goalLoudness;
+    [SerializeField] TextMeshProUGUI loudnessToGoText;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +17,6 @@ public class Loudness : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        loudnessToGoText.text = goalLoudness.loudnessToGo.ToString();
     }
 }
