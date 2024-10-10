@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class CarSteering2D : MonoBehaviour
 {
+    public Timer timer;
+
+    public float loudness;
 
     [SerializeField]
     Transform[] Points; // Points à suivre
@@ -26,27 +29,26 @@ public class CarSteering2D : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float loudness = detector.GetLoudnessFromMicrophone() * loudnessSensibility;
+        loudness = detector.GetLoudnessFromMicrophone() * loudnessSensibility;
+        int loudnessToGo = timer.loudnessToGo;
 
-        if (loudness > 5)
+        Debug.Log("Loudness: " + loudness);
+
+        float goal = loudnessToGo - loudness;
+
+        float absGoal = Mathf.Abs(goal);
+
+        if (absGoal <= 2)
         {
             moveSpeed = 10f;
         }
-        if (loudness > 10)
+        else if (absGoal <= 5)
         {
-            moveSpeed = 15f;
-        }
-        if (loudness > 15)
-        {
-            moveSpeed = 20f;
-        }
-        if (loudness > 20)
-        {
-            moveSpeed = 25f;
+            moveSpeed = 5f;
         }
         else
         {
-            moveSpeed = 5f;
+            moveSpeed = 2f;
         }
 
         if (loudness < threshold)
@@ -62,7 +64,7 @@ public class CarSteering2D : MonoBehaviour
             transform.position = Vector2.MoveTowards(transform.position, Points[pointsIndex].transform.position, moveSpeed * Time.deltaTime);  // Déplacer la voiture vers le prochain point
 
 
-            if (transform.position == Points[pointsIndex].transform.position)   // Passer au point suivant si on atteint le point actuel
+            if (Vector2.Distance(transform.position, Points[pointsIndex].transform.position) < 0.25f)  // Passer au point suivant si on atteint le point actuel
             {
                 pointsIndex += 1;
             }
@@ -73,5 +75,4 @@ public class CarSteering2D : MonoBehaviour
             }
         }
     }
-
 }
