@@ -58,6 +58,8 @@ public class CarSteering2D : MonoBehaviour
         if (pointsIndex <= Points.Length - 1)
         {
 
+            transform.up = (Points[pointsIndex].position - transform.position).normalized;
+
             transform.position = Vector2.MoveTowards(transform.position, Points[pointsIndex].transform.position, moveSpeed * Time.deltaTime);  // Déplacer la voiture vers le prochain point
 
 
