@@ -21,6 +21,7 @@ RenderSettings:
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
@@ -29,6 +30,8 @@ RenderSettings:
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 0}
 =======
+=======
+>>>>>>> parent of 04cdd28 (changement)
   m_AmbientSkyColor: {r: 1, g: 0.40566027, b: 0.7247639, a: 1}
   m_AmbientEquatorColor: {r: 1, g: 0.5943395, b: 0.83390445, a: 1}
   m_AmbientGroundColor: {r: 1, g: 0.87735844, b: 0.94967186, a: 1}
@@ -36,6 +39,9 @@ RenderSettings:
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 1, g: 1, b: 1, a: 0}
   m_SkyboxMaterial: {fileID: 2100000, guid: f531e09e2ad2fb440b4eed7605863143, type: 2}
+<<<<<<< HEAD
+>>>>>>> parent of 04cdd28 (changement)
+=======
 >>>>>>> parent of 04cdd28 (changement)
   m_HaloStrength: 0.5
   m_FlareStrength: 1
@@ -44,7 +50,11 @@ RenderSettings:
   m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
   m_DefaultReflectionMode: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_DefaultReflectionResolution: 128
+=======
+  m_DefaultReflectionResolution: 512
+>>>>>>> parent of 04cdd28 (changement)
 =======
   m_DefaultReflectionResolution: 512
 >>>>>>> parent of 04cdd28 (changement)
@@ -74,7 +84,11 @@ LightmapSettings:
     m_AO: 0
     m_AOMaxDistance: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_CompAOExponent: 0
+=======
+    m_CompAOExponent: 1
+>>>>>>> parent of 04cdd28 (changement)
 =======
     m_CompAOExponent: 1
 >>>>>>> parent of 04cdd28 (changement)
@@ -87,20 +101,27 @@ LightmapSettings:
     m_FinalGather: 0
     m_FinalGatherFiltering: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_FinalGatherRayCount: 1024
     m_ReflectionCompression: 2
     m_MixedBakeMode: 1
     m_BakeBackend: 0
 =======
+=======
+>>>>>>> parent of 04cdd28 (changement)
     m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
     m_MixedBakeMode: 2
     m_BakeBackend: 1
+<<<<<<< HEAD
+>>>>>>> parent of 04cdd28 (changement)
+=======
 >>>>>>> parent of 04cdd28 (changement)
     m_PVRSampling: 1
     m_PVRDirectSampleCount: 32
     m_PVRSampleCount: 512
     m_PVRBounces: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
     m_PVREnvironmentSampleCount: 512
     m_PVREnvironmentReferencePointCount: 2048
@@ -113,6 +134,8 @@ LightmapSettings:
     m_PVRFilterTypeAO: 0
     m_PVREnvironmentMIS: 0
 =======
+=======
+>>>>>>> parent of 04cdd28 (changement)
     m_PVREnvironmentSampleCount: 256
     m_PVREnvironmentReferencePointCount: 2048
     m_PVRFilteringMode: 1
@@ -123,6 +146,9 @@ LightmapSettings:
     m_PVRFilterTypeIndirect: 0
     m_PVRFilterTypeAO: 0
     m_PVREnvironmentMIS: 1
+<<<<<<< HEAD
+>>>>>>> parent of 04cdd28 (changement)
+=======
 >>>>>>> parent of 04cdd28 (changement)
     m_PVRCulling: 1
     m_PVRFilteringGaussRadiusDirect: 1
@@ -136,7 +162,11 @@ LightmapSettings:
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LightingSettings: {fileID: 4890085278179872738, guid: d956a3ecfc1cf434bb8e50591909af36, type: 2}
+=======
+  m_LightingSettings: {fileID: 0}
+>>>>>>> parent of 04cdd28 (changement)
 =======
   m_LightingSettings: {fileID: 0}
 >>>>>>> parent of 04cdd28 (changement)
@@ -164,6 +194,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &30788851 stripped
 GameObject:
@@ -281,6 +312,9 @@ PrefabInstance:
 =======
 --- !u!1 &5402907
 >>>>>>> parent of 04cdd28 (changement)
+=======
+--- !u!1 &5402907
+>>>>>>> parent of 04cdd28 (changement)
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -289,16 +323,22 @@ GameObject:
   serializedVersion: 6
   m_Component:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 190671980}
   - component: {fileID: 190671979}
   m_Layer: 0
   m_Name: Obj2 (1)
 =======
+=======
+>>>>>>> parent of 04cdd28 (changement)
   - component: {fileID: 5402909}
   - component: {fileID: 5402908}
   m_Layer: 0
   m_Name: 25695063-pixel-art-illustration-fusee-pixelise-fusee-fusee-espace-icone-pixelise-pour-le-pixel-art-jeu-et-icone-pour-site-internet-et-video-jeu-vieux-ecole-retro-vectoriel-removeb
     (3)
+<<<<<<< HEAD
+>>>>>>> parent of 04cdd28 (changement)
+=======
 >>>>>>> parent of 04cdd28 (changement)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -306,7 +346,11 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!212 &190671979
+=======
+--- !u!212 &5402908
+>>>>>>> parent of 04cdd28 (changement)
 =======
 --- !u!212 &5402908
 >>>>>>> parent of 04cdd28 (changement)
@@ -316,7 +360,11 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 190671978}
+=======
+  m_GameObject: {fileID: 5402907}
+>>>>>>> parent of 04cdd28 (changement)
 =======
   m_GameObject: {fileID: 5402907}
 >>>>>>> parent of 04cdd28 (changement)
@@ -327,8 +375,13 @@ SpriteRenderer:
   m_StaticShadowCaster: 0
   m_MotionVectors: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+=======
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+>>>>>>> parent of 04cdd28 (changement)
 =======
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -360,7 +413,11 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Sprite: {fileID: 21300000, guid: d77eb5d41bdba5c47a307415c879dd72, type: 3}
+=======
+  m_Sprite: {fileID: 21300000, guid: c0668d0be13b32c4284cf06ea1a5a20b, type: 3}
+>>>>>>> parent of 04cdd28 (changement)
 =======
   m_Sprite: {fileID: 21300000, guid: c0668d0be13b32c4284cf06ea1a5a20b, type: 3}
 >>>>>>> parent of 04cdd28 (changement)
@@ -369,7 +426,11 @@ SpriteRenderer:
   m_FlipY: 0
   m_DrawMode: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Size: {x: 1, y: 1}
+=======
+  m_Size: {x: 5, y: 5}
+>>>>>>> parent of 04cdd28 (changement)
 =======
   m_Size: {x: 5, y: 5}
 >>>>>>> parent of 04cdd28 (changement)
@@ -379,7 +440,11 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &190671980
+=======
+--- !u!4 &5402909
+>>>>>>> parent of 04cdd28 (changement)
 =======
 --- !u!4 &5402909
 >>>>>>> parent of 04cdd28 (changement)
@@ -389,23 +454,34 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 190671978}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -9.33, y: -2.77, z: 0}
 =======
+=======
+>>>>>>> parent of 04cdd28 (changement)
   m_GameObject: {fileID: 5402907}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.7972383, w: 0.60366476}
   m_LocalPosition: {x: -40.693855, y: 51.448685, z: 0}
+<<<<<<< HEAD
+>>>>>>> parent of 04cdd28 (changement)
+=======
 >>>>>>> parent of 04cdd28 (changement)
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &225934271
+=======
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 105.734}
+--- !u!1 &14586265
+>>>>>>> parent of 04cdd28 (changement)
 =======
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 105.734}
 --- !u!1 &14586265
@@ -418,8 +494,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 225934272}
 =======
+=======
+>>>>>>> parent of 04cdd28 (changement)
   - component: {fileID: 14586267}
   - component: {fileID: 14586266}
   m_Layer: 0
@@ -9195,6 +9274,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1148344735}
+<<<<<<< HEAD
+>>>>>>> parent of 04cdd28 (changement)
+=======
 >>>>>>> parent of 04cdd28 (changement)
   m_Layer: 0
   m_Name: GameObject
@@ -9204,7 +9286,11 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &225934272
+=======
+--- !u!4 &1148344735
+>>>>>>> parent of 04cdd28 (changement)
 =======
 --- !u!4 &1148344735
 >>>>>>> parent of 04cdd28 (changement)
@@ -9213,6 +9299,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 225934271}
   serializedVersion: 2
@@ -9225,6 +9312,8 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &307890409
 =======
+=======
+>>>>>>> parent of 04cdd28 (changement)
   m_GameObject: {fileID: 1148344734}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -9235,6 +9324,9 @@ Transform:
   m_Father: {fileID: 328744038}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1149776369
+<<<<<<< HEAD
+>>>>>>> parent of 04cdd28 (changement)
+=======
 >>>>>>> parent of 04cdd28 (changement)
 GameObject:
   m_ObjectHideFlags: 0
@@ -9244,16 +9336,22 @@ GameObject:
   serializedVersion: 6
   m_Component:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 307890411}
   - component: {fileID: 307890410}
   - component: {fileID: 307890412}
   m_Layer: 0
   m_Name: F1_car02
 =======
+=======
+>>>>>>> parent of 04cdd28 (changement)
   - component: {fileID: 1149776371}
   - component: {fileID: 1149776370}
   m_Layer: 0
   m_Name: abu79tqdlnj31-removebg-preview
+<<<<<<< HEAD
+>>>>>>> parent of 04cdd28 (changement)
+=======
 >>>>>>> parent of 04cdd28 (changement)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9261,7 +9359,11 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!212 &307890410
+=======
+--- !u!212 &1149776370
+>>>>>>> parent of 04cdd28 (changement)
 =======
 --- !u!212 &1149776370
 >>>>>>> parent of 04cdd28 (changement)
@@ -9271,7 +9373,11 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 307890409}
+=======
+  m_GameObject: {fileID: 1149776369}
+>>>>>>> parent of 04cdd28 (changement)
 =======
   m_GameObject: {fileID: 1149776369}
 >>>>>>> parent of 04cdd28 (changement)
@@ -9282,8 +9388,13 @@ SpriteRenderer:
   m_StaticShadowCaster: 0
   m_MotionVectors: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+=======
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+>>>>>>> parent of 04cdd28 (changement)
 =======
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -9314,8 +9425,13 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 98b542c8db8fb324da4172123d5a11dd, type: 3}
+=======
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 42026c404ff65974aae5b89abdefbc1d, type: 3}
+>>>>>>> parent of 04cdd28 (changement)
 =======
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 42026c404ff65974aae5b89abdefbc1d, type: 3}
@@ -9325,7 +9441,11 @@ SpriteRenderer:
   m_FlipY: 0
   m_DrawMode: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Size: {x: 1, y: 1}
+=======
+  m_Size: {x: 4.85, y: 5.14}
+>>>>>>> parent of 04cdd28 (changement)
 =======
   m_Size: {x: 4.85, y: 5.14}
 >>>>>>> parent of 04cdd28 (changement)
@@ -9335,7 +9455,11 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &307890411
+=======
+--- !u!4 &1149776371
+>>>>>>> parent of 04cdd28 (changement)
 =======
 --- !u!4 &1149776371
 >>>>>>> parent of 04cdd28 (changement)
@@ -9345,11 +9469,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 307890409}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -7.77, y: -1.8, z: 0}
 =======
+=======
+>>>>>>> parent of 04cdd28 (changement)
   m_GameObject: {fileID: 1149776369}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -9637,6 +9764,9 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 30.2, y: 45.4, z: 0}
+<<<<<<< HEAD
+>>>>>>> parent of 04cdd28 (changement)
+=======
 >>>>>>> parent of 04cdd28 (changement)
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -9644,8 +9774,11 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &307890412
 =======
+=======
+>>>>>>> parent of 04cdd28 (changement)
 --- !u!1 &1192163025
 GameObject:
   m_ObjectHideFlags: 0
@@ -10063,12 +10196,16 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!114 &1276060077
+<<<<<<< HEAD
+>>>>>>> parent of 04cdd28 (changement)
+=======
 >>>>>>> parent of 04cdd28 (changement)
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 307890409}
   m_Enabled: 1
@@ -10108,6 +10245,8 @@ GameObject:
   m_IsActive: 1
 --- !u!212 &341726360
 =======
+=======
+>>>>>>> parent of 04cdd28 (changement)
   m_GameObject: {fileID: 1276060076}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -10169,6 +10308,9 @@ GameObject:
   loudnessSensibility: 100
   threshold: 0.1
 --- !u!212 &1276060078
+<<<<<<< HEAD
+>>>>>>> parent of 04cdd28 (changement)
+=======
 >>>>>>> parent of 04cdd28 (changement)
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10176,7 +10318,11 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 341726359}
+=======
+  m_GameObject: {fileID: 1276060076}
+>>>>>>> parent of 04cdd28 (changement)
 =======
   m_GameObject: {fileID: 1276060076}
 >>>>>>> parent of 04cdd28 (changement)
@@ -10187,8 +10333,13 @@ SpriteRenderer:
   m_StaticShadowCaster: 0
   m_MotionVectors: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+=======
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+>>>>>>> parent of 04cdd28 (changement)
 =======
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -10220,7 +10371,11 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Sprite: {fileID: 21300000, guid: ae84159197d46624fbf53d7b38c40679, type: 3}
+=======
+  m_Sprite: {fileID: 21300000, guid: 280bfb52960f20542bcae8af29cc5874, type: 3}
+>>>>>>> parent of 04cdd28 (changement)
 =======
   m_Sprite: {fileID: 21300000, guid: 280bfb52960f20542bcae8af29cc5874, type: 3}
 >>>>>>> parent of 04cdd28 (changement)
@@ -10229,7 +10384,11 @@ SpriteRenderer:
   m_FlipY: 0
   m_DrawMode: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Size: {x: 1, y: 1}
+=======
+  m_Size: {x: 2.45, y: 4.8}
+>>>>>>> parent of 04cdd28 (changement)
 =======
   m_Size: {x: 2.45, y: 4.8}
 >>>>>>> parent of 04cdd28 (changement)
@@ -10239,7 +10398,11 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &341726361
+=======
+--- !u!4 &1276060079
+>>>>>>> parent of 04cdd28 (changement)
 =======
 --- !u!4 &1276060079
 >>>>>>> parent of 04cdd28 (changement)
@@ -10249,24 +10412,34 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 341726359}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -6.47, y: 0.33, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
 =======
+=======
+>>>>>>> parent of 04cdd28 (changement)
   m_GameObject: {fileID: 1276060076}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -3.44, y: -3.07, z: 0}
   m_LocalScale: {x: 0.4445302, y: 0.3826897, z: 1}
+<<<<<<< HEAD
+>>>>>>> parent of 04cdd28 (changement)
+=======
 >>>>>>> parent of 04cdd28 (changement)
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &357416578
+=======
+--- !u!1 &1276793657
+>>>>>>> parent of 04cdd28 (changement)
 =======
 --- !u!1 &1276793657
 >>>>>>> parent of 04cdd28 (changement)
@@ -10278,11 +10451,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 357416583}
   - component: {fileID: 357416582}
   - component: {fileID: 357416580}
   - component: {fileID: 357416579}
 =======
+=======
+>>>>>>> parent of 04cdd28 (changement)
   - component: {fileID: 1276793659}
   - component: {fileID: 1276793658}
   m_Layer: 0
@@ -13264,6 +13440,9 @@ GameObject:
   - component: {fileID: 1691611284}
   - component: {fileID: 1691611283}
   - component: {fileID: 1691611282}
+<<<<<<< HEAD
+>>>>>>> parent of 04cdd28 (changement)
+=======
 >>>>>>> parent of 04cdd28 (changement)
   m_Layer: 0
   m_Name: Main Camera
@@ -13273,7 +13452,11 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!81 &357416579
+=======
+--- !u!81 &1691611282
+>>>>>>> parent of 04cdd28 (changement)
 =======
 --- !u!81 &1691611282
 >>>>>>> parent of 04cdd28 (changement)
@@ -13282,6 +13465,7 @@ AudioListener:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 357416578}
   m_Enabled: 1
@@ -13299,11 +13483,17 @@ Behaviour:
   m_Enabled: 1
 --- !u!20 &1691611283
 >>>>>>> parent of 04cdd28 (changement)
+=======
+  m_GameObject: {fileID: 1691611281}
+  m_Enabled: 1
+--- !u!20 &1691611283
+>>>>>>> parent of 04cdd28 (changement)
 Camera:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 357416578}
   m_Enabled: 1
@@ -13311,11 +13501,16 @@ Camera:
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0.019607844}
 =======
+=======
+>>>>>>> parent of 04cdd28 (changement)
   m_GameObject: {fileID: 1691611281}
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+<<<<<<< HEAD
+>>>>>>> parent of 04cdd28 (changement)
+=======
 >>>>>>> parent of 04cdd28 (changement)
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -13342,7 +13537,11 @@ Camera:
   field of view: 60
   orthographic: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   orthographic size: 16.995285
+=======
+  orthographic size: 41.469
+>>>>>>> parent of 04cdd28 (changement)
 =======
   orthographic size: 41.469
 >>>>>>> parent of 04cdd28 (changement)
@@ -13355,7 +13554,11 @@ Camera:
   m_TargetDisplay: 0
   m_TargetEye: 3
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_HDR: 0
+=======
+  m_HDR: 1
+>>>>>>> parent of 04cdd28 (changement)
 =======
   m_HDR: 1
 >>>>>>> parent of 04cdd28 (changement)
@@ -13366,7 +13569,11 @@ Camera:
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &357416583
+=======
+--- !u!4 &1691611284
+>>>>>>> parent of 04cdd28 (changement)
 =======
 --- !u!4 &1691611284
 >>>>>>> parent of 04cdd28 (changement)
@@ -13376,15 +13583,21 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 357416578}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
 =======
+=======
+>>>>>>> parent of 04cdd28 (changement)
   m_GameObject: {fileID: 1691611281}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 8.5, y: 20.8, z: -10}
+<<<<<<< HEAD
+>>>>>>> parent of 04cdd28 (changement)
+=======
 >>>>>>> parent of 04cdd28 (changement)
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -13392,12 +13605,16 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &364953262 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 465764924158068232, guid: 1e6fb42b69e9ec44c8b18e0343d5c68e, type: 3}
   m_PrefabInstance: {fileID: 448748828}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &408044393
+=======
+--- !u!1 &1693133422
+>>>>>>> parent of 04cdd28 (changement)
 =======
 --- !u!1 &1693133422
 >>>>>>> parent of 04cdd28 (changement)
@@ -13409,20 +13626,27 @@ GameObject:
   serializedVersion: 6
   m_Component:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 408044394}
   m_Layer: 0
   m_Name: Bushs
 =======
+=======
+>>>>>>> parent of 04cdd28 (changement)
   - component: {fileID: 1693133424}
   - component: {fileID: 1693133423}
   m_Layer: 0
   m_Name: abu79tqdlnj31-removebg-preview (84)
+<<<<<<< HEAD
+>>>>>>> parent of 04cdd28 (changement)
+=======
 >>>>>>> parent of 04cdd28 (changement)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!4 &408044394
 Transform:
@@ -13900,13 +14124,20 @@ GameObject:
 =======
 --- !u!212 &1693133423
 >>>>>>> parent of 04cdd28 (changement)
+=======
+--- !u!212 &1693133423
+>>>>>>> parent of 04cdd28 (changement)
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 845360474}
+=======
+  m_GameObject: {fileID: 1693133422}
+>>>>>>> parent of 04cdd28 (changement)
 =======
   m_GameObject: {fileID: 1693133422}
 >>>>>>> parent of 04cdd28 (changement)
@@ -13917,9 +14148,12 @@ SpriteRenderer:
   m_StaticShadowCaster: 0
   m_MotionVectors: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
 =======
+=======
+>>>>>>> parent of 04cdd28 (changement)
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
@@ -15404,6 +15638,9 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+<<<<<<< HEAD
+>>>>>>> parent of 04cdd28 (changement)
+=======
 >>>>>>> parent of 04cdd28 (changement)
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
@@ -15432,7 +15669,11 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Sprite: {fileID: 21300000, guid: e888b54df6aac0941a6212075a3b0bbe, type: 3}
+=======
+  m_Sprite: {fileID: 21300000, guid: 77f4e7fcda0c0ba44b6487112a4d0ba5, type: 3}
+>>>>>>> parent of 04cdd28 (changement)
 =======
   m_Sprite: {fileID: 21300000, guid: 77f4e7fcda0c0ba44b6487112a4d0ba5, type: 3}
 >>>>>>> parent of 04cdd28 (changement)
@@ -15441,7 +15682,11 @@ SpriteRenderer:
   m_FlipY: 0
   m_DrawMode: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Size: {x: 1, y: 1}
+=======
+  m_Size: {x: 2.29, y: 4.8}
+>>>>>>> parent of 04cdd28 (changement)
 =======
   m_Size: {x: 2.29, y: 4.8}
 >>>>>>> parent of 04cdd28 (changement)
@@ -15451,7 +15696,11 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &845360476
+=======
+--- !u!4 &1861989886
+>>>>>>> parent of 04cdd28 (changement)
 =======
 --- !u!4 &1861989886
 >>>>>>> parent of 04cdd28 (changement)
@@ -15461,22 +15710,29 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 845360474}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4.98, y: 1.61, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
 =======
+=======
+>>>>>>> parent of 04cdd28 (changement)
   m_GameObject: {fileID: 1861989882}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4.74, y: -4.46, z: 0}
   m_LocalScale: {x: 0.4445302, y: 0.3826897, z: 1}
+<<<<<<< HEAD
+>>>>>>> parent of 04cdd28 (changement)
+=======
 >>>>>>> parent of 04cdd28 (changement)
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!114 &845360477
 MonoBehaviour:
@@ -15629,6 +15885,9 @@ Transform:
 =======
 --- !u!1 &1865749431
 >>>>>>> parent of 04cdd28 (changement)
+=======
+--- !u!1 &1865749431
+>>>>>>> parent of 04cdd28 (changement)
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -15637,20 +15896,27 @@ GameObject:
   serializedVersion: 6
   m_Component:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 941315869}
   m_Layer: 0
   m_Name: point
 =======
+=======
+>>>>>>> parent of 04cdd28 (changement)
   - component: {fileID: 1865749433}
   - component: {fileID: 1865749432}
   m_Layer: 0
   m_Name: abu79tqdlnj31-removebg-preview (53)
+<<<<<<< HEAD
+>>>>>>> parent of 04cdd28 (changement)
+=======
 >>>>>>> parent of 04cdd28 (changement)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!4 &941315869
 Transform:
@@ -15723,13 +15989,20 @@ GameObject:
 =======
 --- !u!212 &1865749432
 >>>>>>> parent of 04cdd28 (changement)
+=======
+--- !u!212 &1865749432
+>>>>>>> parent of 04cdd28 (changement)
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1090313461}
+=======
+  m_GameObject: {fileID: 1865749431}
+>>>>>>> parent of 04cdd28 (changement)
 =======
   m_GameObject: {fileID: 1865749431}
 >>>>>>> parent of 04cdd28 (changement)
@@ -15740,8 +16013,13 @@ SpriteRenderer:
   m_StaticShadowCaster: 0
   m_MotionVectors: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+=======
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+>>>>>>> parent of 04cdd28 (changement)
 =======
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -15773,7 +16051,11 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Sprite: {fileID: 21300000, guid: d77eb5d41bdba5c47a307415c879dd72, type: 3}
+=======
+  m_Sprite: {fileID: 21300000, guid: 42026c404ff65974aae5b89abdefbc1d, type: 3}
+>>>>>>> parent of 04cdd28 (changement)
 =======
   m_Sprite: {fileID: 21300000, guid: 42026c404ff65974aae5b89abdefbc1d, type: 3}
 >>>>>>> parent of 04cdd28 (changement)
@@ -15782,7 +16064,11 @@ SpriteRenderer:
   m_FlipY: 0
   m_DrawMode: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Size: {x: 1, y: 1}
+=======
+  m_Size: {x: 4.85, y: 5.14}
+>>>>>>> parent of 04cdd28 (changement)
 =======
   m_Size: {x: 4.85, y: 5.14}
 >>>>>>> parent of 04cdd28 (changement)
@@ -15792,7 +16078,11 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &1090313463
+=======
+--- !u!4 &1865749433
+>>>>>>> parent of 04cdd28 (changement)
 =======
 --- !u!4 &1865749433
 >>>>>>> parent of 04cdd28 (changement)
@@ -15802,22 +16092,29 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1090313461}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -9.33, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
 =======
+=======
+>>>>>>> parent of 04cdd28 (changement)
   m_GameObject: {fileID: 1865749431}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -6.4, y: 63.2, z: 0}
   m_LocalScale: {x: 0.6165, y: 0.6382, z: 1}
+<<<<<<< HEAD
+>>>>>>> parent of 04cdd28 (changement)
+=======
 >>>>>>> parent of 04cdd28 (changement)
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!4 &1129287209 stripped
 Transform:
@@ -15826,12 +16123,17 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1130460988
 =======
+=======
+>>>>>>> parent of 04cdd28 (changement)
 --- !u!4 &1866384009 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2421288631466651021, guid: 5ecc93adf97da4446aa83e888e1f4789, type: 3}
   m_PrefabInstance: {fileID: 1120228815}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1869378901
+<<<<<<< HEAD
+>>>>>>> parent of 04cdd28 (changement)
+=======
 >>>>>>> parent of 04cdd28 (changement)
 GameObject:
   m_ObjectHideFlags: 0
@@ -15840,6 +16142,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - component: {fileID: 1130460989}
   m_Layer: 0
@@ -16058,10 +16361,15 @@ GameObject:
   m_Layer: 0
   m_Name: Obj1 (1)
 =======
+=======
+>>>>>>> parent of 04cdd28 (changement)
   - component: {fileID: 1869378903}
   - component: {fileID: 1869378902}
   m_Layer: 0
   m_Name: abu79tqdlnj31-removebg-preview (61)
+<<<<<<< HEAD
+>>>>>>> parent of 04cdd28 (changement)
+=======
 >>>>>>> parent of 04cdd28 (changement)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16069,7 +16377,11 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!212 &1410645474
+=======
+--- !u!212 &1869378902
+>>>>>>> parent of 04cdd28 (changement)
 =======
 --- !u!212 &1869378902
 >>>>>>> parent of 04cdd28 (changement)
@@ -16079,7 +16391,11 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1410645473}
+=======
+  m_GameObject: {fileID: 1869378901}
+>>>>>>> parent of 04cdd28 (changement)
 =======
   m_GameObject: {fileID: 1869378901}
 >>>>>>> parent of 04cdd28 (changement)
@@ -16090,8 +16406,13 @@ SpriteRenderer:
   m_StaticShadowCaster: 0
   m_MotionVectors: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+=======
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+>>>>>>> parent of 04cdd28 (changement)
 =======
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -16123,7 +16444,11 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Sprite: {fileID: 21300000, guid: 53e4f97dbad78364c9a898cb4bb73152, type: 3}
+=======
+  m_Sprite: {fileID: 21300000, guid: 42026c404ff65974aae5b89abdefbc1d, type: 3}
+>>>>>>> parent of 04cdd28 (changement)
 =======
   m_Sprite: {fileID: 21300000, guid: 42026c404ff65974aae5b89abdefbc1d, type: 3}
 >>>>>>> parent of 04cdd28 (changement)
@@ -16132,7 +16457,11 @@ SpriteRenderer:
   m_FlipY: 0
   m_DrawMode: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Size: {x: 1, y: 1}
+=======
+  m_Size: {x: 4.85, y: 5.14}
+>>>>>>> parent of 04cdd28 (changement)
 =======
   m_Size: {x: 4.85, y: 5.14}
 >>>>>>> parent of 04cdd28 (changement)
@@ -16142,7 +16471,11 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &1410645475
+=======
+--- !u!4 &1869378903
+>>>>>>> parent of 04cdd28 (changement)
 =======
 --- !u!4 &1869378903
 >>>>>>> parent of 04cdd28 (changement)
@@ -16152,22 +16485,29 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1410645473}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -9.33, y: -5.29, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
 =======
+=======
+>>>>>>> parent of 04cdd28 (changement)
   m_GameObject: {fileID: 1869378901}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 64.22603, y: 40.16198, z: 0}
   m_LocalScale: {x: 0.6165, y: 0.6382, z: 1}
+<<<<<<< HEAD
+>>>>>>> parent of 04cdd28 (changement)
+=======
 >>>>>>> parent of 04cdd28 (changement)
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1001 &1418391419
 PrefabInstance:
@@ -16297,6 +16637,9 @@ Transform:
 =======
 --- !u!1 &1869405458
 >>>>>>> parent of 04cdd28 (changement)
+=======
+--- !u!1 &1869405458
+>>>>>>> parent of 04cdd28 (changement)
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -16304,6 +16647,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - component: {fileID: 1649040114}
   m_Layer: 0
@@ -16402,16 +16746,22 @@ GameObject:
   m_Layer: 0
   m_Name: Tire
 =======
+=======
+>>>>>>> parent of 04cdd28 (changement)
   - component: {fileID: 1869405460}
   - component: {fileID: 1869405459}
   m_Layer: 0
   m_Name: abu79tqdlnj31-removebg-preview (22)
+<<<<<<< HEAD
+>>>>>>> parent of 04cdd28 (changement)
+=======
 >>>>>>> parent of 04cdd28 (changement)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!4 &1729652964
 Transform:
@@ -16841,13 +17191,20 @@ GameObject:
 =======
 --- !u!212 &1869405459
 >>>>>>> parent of 04cdd28 (changement)
+=======
+--- !u!212 &1869405459
+>>>>>>> parent of 04cdd28 (changement)
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 2138918011}
+=======
+  m_GameObject: {fileID: 1869405458}
+>>>>>>> parent of 04cdd28 (changement)
 =======
   m_GameObject: {fileID: 1869405458}
 >>>>>>> parent of 04cdd28 (changement)
@@ -16858,8 +17215,13 @@ SpriteRenderer:
   m_StaticShadowCaster: 0
   m_MotionVectors: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+=======
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+>>>>>>> parent of 04cdd28 (changement)
 =======
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -16891,7 +17253,11 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Sprite: {fileID: 21300000, guid: 53e4f97dbad78364c9a898cb4bb73152, type: 3}
+=======
+  m_Sprite: {fileID: 21300000, guid: 42026c404ff65974aae5b89abdefbc1d, type: 3}
+>>>>>>> parent of 04cdd28 (changement)
 =======
   m_Sprite: {fileID: 21300000, guid: 42026c404ff65974aae5b89abdefbc1d, type: 3}
 >>>>>>> parent of 04cdd28 (changement)
@@ -16900,7 +17266,11 @@ SpriteRenderer:
   m_FlipY: 0
   m_DrawMode: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Size: {x: 1, y: 1}
+=======
+  m_Size: {x: 4.85, y: 5.14}
+>>>>>>> parent of 04cdd28 (changement)
 =======
   m_Size: {x: 4.85, y: 5.14}
 >>>>>>> parent of 04cdd28 (changement)
@@ -16910,7 +17280,11 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &2138918013
+=======
+--- !u!4 &1869405460
+>>>>>>> parent of 04cdd28 (changement)
 =======
 --- !u!4 &1869405460
 >>>>>>> parent of 04cdd28 (changement)
@@ -16920,11 +17294,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 2138918011}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -9.33, y: 2.85, z: 0}
 =======
+=======
+>>>>>>> parent of 04cdd28 (changement)
   m_GameObject: {fileID: 1869405458}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -17182,6 +17559,9 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 39.35081, y: 30.302048, z: 0}
+<<<<<<< HEAD
+>>>>>>> parent of 04cdd28 (changement)
+=======
 >>>>>>> parent of 04cdd28 (changement)
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -17189,8 +17569,11 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &1586796658068019321
 =======
+=======
+>>>>>>> parent of 04cdd28 (changement)
 --- !u!1 &1900434312
 GameObject:
   m_ObjectHideFlags: 0
@@ -18981,12 +19364,16 @@ Transform:
   m_Father: {fileID: 328744038}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1985526549559233724
+<<<<<<< HEAD
+>>>>>>> parent of 04cdd28 (changement)
+=======
 >>>>>>> parent of 04cdd28 (changement)
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<< HEAD
 <<<<<<< HEAD
     m_TransformParent: {fileID: 0}
     m_Modifications:
@@ -19122,6 +19509,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Obj_Bush
 =======
+=======
+>>>>>>> parent of 04cdd28 (changement)
     m_TransformParent: {fileID: 1619547144}
     m_Modifications:
     - target: {fileID: 2421288631466651021, guid: 5ecc93adf97da4446aa83e888e1f4789, type: 3}
@@ -19167,12 +19556,16 @@ PrefabInstance:
     - target: {fileID: 5861004788190194833, guid: 5ecc93adf97da4446aa83e888e1f4789, type: 3}
       propertyPath: m_Name
       value: 26136786-pixel-art-illustration-espace-satellite-pixelise-satellite-espace-satellite-icone-pixelise-pour-le-pixel-art-jeu-et-icone-pour-site-internet-et-video-jeu-vieux-ecole-retr
+<<<<<<< HEAD
+>>>>>>> parent of 04cdd28 (changement)
+=======
 >>>>>>> parent of 04cdd28 (changement)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_SourcePrefab: {fileID: 100100000, guid: 1e6fb42b69e9ec44c8b18e0343d5c68e, type: 3}
 --- !u!1001 &6928930513582357660
@@ -19235,10 +19628,14 @@ PrefabInstance:
 =======
   m_SourcePrefab: {fileID: 100100000, guid: 5ecc93adf97da4446aa83e888e1f4789, type: 3}
 >>>>>>> parent of 04cdd28 (changement)
+=======
+  m_SourcePrefab: {fileID: 100100000, guid: 5ecc93adf97da4446aa83e888e1f4789, type: 3}
+>>>>>>> parent of 04cdd28 (changement)
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - {fileID: 357416583}
   - {fileID: 1586796658068019321}
@@ -19256,6 +19653,8 @@ SceneRoots:
   - {fileID: 1849097371}
   - {fileID: 2004520763}
 =======
+=======
+>>>>>>> parent of 04cdd28 (changement)
   - {fileID: 1691611284}
   - {fileID: 1018515749}
   - {fileID: 1808219822}
@@ -19427,4 +19826,7 @@ SceneRoots:
   - {fileID: 507992336}
   - {fileID: 328744038}
   - {fileID: 1619547144}
+<<<<<<< HEAD
+>>>>>>> parent of 04cdd28 (changement)
+=======
 >>>>>>> parent of 04cdd28 (changement)
