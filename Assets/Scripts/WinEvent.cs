@@ -4,26 +4,45 @@ using UnityEngine;
 
 public class WinEvent : MonoBehaviour
 {
-    public int lapsCompleted = 0;
+    public int playerLapsCompleted = 0;
+    public int botLapsCompleted = 0;
     public int lapsToWin = 3;
+
+    public GameObject playerVictoryPanel;
+    public GameObject botVictoryPanel;
+
+    bool visible = false;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            lapsCompleted++;
-            Debug.Log("Passage sur la ligne de victoire : " + lapsCompleted + "/" + lapsToWin);
+            playerLapsCompleted++;
+            Debug.Log("Le joueur a franchi la ligne de victoire : " + playerLapsCompleted + "/" + lapsToWin);
 
-            if (lapsCompleted >= lapsToWin)
+            if (playerLapsCompleted == lapsToWin)
             {
+                ShowPanel(playerVictoryPanel);
                 Debug.Log("Victoire ! Le joueur a gagné la course.");
-                WinRace();
+            }
+        }
+
+        if (other.gameObject.CompareTag("Bot"))
+        {
+            botLapsCompleted++;
+            Debug.Log("Le bot a franchi la ligne de victoire : " + botLapsCompleted + "/" + lapsToWin);
+
+            if (botLapsCompleted == lapsToWin)
+            {
+                ShowPanel(botVictoryPanel);
+                Debug.Log("Défaite ! Le Bot a gagné la course.");
             }
         }
     }
 
-    private void WinRace()
+    private void ShowPanel(GameObject panel)
     {
-        Debug.Log("Le joueur a remporté la course !");
+        panel.SetActive(true);
+        Time.timeScale = 0f;
     }
 }
