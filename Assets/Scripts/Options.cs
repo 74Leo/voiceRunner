@@ -139,6 +139,11 @@ public class Options : MonoBehaviour
         Debug.Log("Volume ajusté à : " + (audioSource.volume * 100).ToString("00") + "%");
     }
 
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+
     private void DisplayGPUInfo()
     {
         GPUInfo.text += "Carte graphique : " + SystemInfo.graphicsDeviceName + "\n";

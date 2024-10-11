@@ -43,7 +43,8 @@ public class WinEvent : MonoBehaviour
 
     private void ShowPanel(GameObject panel)
     {
-        panel.SetActive(true);
+        visible = !visible;
+        panel.SetActive(visible);
         Time.timeScale = 0f;
     }
 }
