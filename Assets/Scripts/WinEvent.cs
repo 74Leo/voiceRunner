@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class WinEvent : MonoBehaviour
 {
@@ -24,25 +25,13 @@ public class WinEvent : MonoBehaviour
             {
                 ShowPanel(playerVictoryPanel);
                 Debug.Log("Victoire ! Le joueur a gagné la course.");
-            }
-        }
-
-        if (other.gameObject.CompareTag("Bot"))
-        {
-            botLapsCompleted++;
-            Debug.Log("Le bot a franchi la ligne de victoire : " + botLapsCompleted + "/" + lapsToWin);
-
-            if (botLapsCompleted == lapsToWin)
-            {
-                ShowPanel(botVictoryPanel);
-                Debug.Log("Défaite ! Le Bot a gagné la course.");
+                WinRace();
             }
         }
     }
 
-    private void ShowPanel(GameObject panel)
+    private void WinRace()
     {
-        panel.SetActive(true);
-        Time.timeScale = 0f;
+        Debug.Log("Le joueur a remporté la course !");
     }
 }
