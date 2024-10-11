@@ -7,7 +7,7 @@ public class WinEvent : MonoBehaviour
 {
     public int playerLapsCompleted = 0;
     public int botLapsCompleted = 0;
-    public int lapsToWin = 3;
+    public int lapsToWin = 2;
 
     public GameObject playerVictoryPanel;
     public GameObject botVictoryPanel;

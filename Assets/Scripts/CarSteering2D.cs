@@ -38,11 +38,11 @@ public class CarSteering2D : MonoBehaviour
 
         float absGoal = Mathf.Abs(goal);
 
-        if (absGoal <= 5)
+        if (absGoal <= 10)
         {
             moveSpeed = 10f;
         }
-        else if (absGoal <= 10)
+        else if (absGoal <= 15)
         {
             moveSpeed = 5f;
         }

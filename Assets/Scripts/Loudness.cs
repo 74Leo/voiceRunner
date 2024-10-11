@@ -9,6 +9,8 @@ public class Loudness : MonoBehaviour
     
     [SerializeField] Slider loudnessSlider;
 
+    [SerializeField] float smoothSpeed = 0.5f; 
+
 
     // Start is called before the first frame update
     void Start()
@@ -19,6 +21,8 @@ public class Loudness : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-         loudnessSlider.value = Mathf.Clamp01(player.loudness / 60f);
+       float targetValue = Mathf.Clamp01(player.loudness / 60f);
+        
+        loudnessSlider.value = Mathf.Lerp(loudnessSlider.value, targetValue, smoothSpeed);
     }
 }
