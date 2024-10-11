@@ -8,6 +8,7 @@ public class AnimateVictoryCounts : MonoBehaviour
 
     void OnEnable()
     {
+        if (roundsText == null) return;
         StartCoroutine(AnimatedTextt());
     }
 
