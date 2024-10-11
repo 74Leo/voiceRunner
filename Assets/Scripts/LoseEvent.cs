@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LoseEvent : MonoBehaviour
 {
@@ -17,13 +18,14 @@ public class LoseEvent : MonoBehaviour
             if (lapsCompleted >= lapsToWin)
             {
                 Debug.Log("Défaite ! Le Bot a gagné la course.");
-                WinRace();
+                LoseRace();
             }
         }
     }
 
-    private void WinRace()
+    private void LoseRace()
     {
         Debug.Log("Le Bot a remporté la course !");
+        SceneManager.LoadScene(Defaite);
     }
 }

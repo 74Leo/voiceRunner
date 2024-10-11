@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class WinEvent : MonoBehaviour
 {
@@ -25,5 +26,6 @@ public class WinEvent : MonoBehaviour
     private void WinRace()
     {
         Debug.Log("Le joueur a remporté la course !");
+        SceneManager.LoadScene(Victoire);
     }
 }
