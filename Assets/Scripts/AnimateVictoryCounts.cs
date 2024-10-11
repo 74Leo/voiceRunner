@@ -19,7 +19,7 @@ public class AnimateVictoryCounts : MonoBehaviour
 
         yield return new WaitForSeconds(0.7f);
 
-        while (round < 3)
+        while (round < 2)
         {
             round++;
             roundsText.text = round.ToString();
