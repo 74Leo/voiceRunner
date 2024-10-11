@@ -17,6 +17,6 @@ public class Loudness : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-         loudnessText.text = player.loudness.ToString();
+         loudnessText.text = player.loudness.ToString("F0");
     }
 }
