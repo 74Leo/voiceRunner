@@ -6712,7 +6712,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: /3
+  m_Text: /2
 --- !u!222 &631528791
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17991,7 +17991,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 3
+  m_Text: 2
 --- !u!222 &1782479657
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -20598,6 +20598,7 @@ MonoBehaviour:
   playerLapsCompleted: 0
   botLapsCompleted: 0
   lapsToWin: 2
+  lapsToWinBot: 4
   playerVictoryPanel: {fileID: 761191464}
   botVictoryPanel: {fileID: 350250377}
 --- !u!4 &1949693623 stripped
