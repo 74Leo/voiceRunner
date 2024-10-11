@@ -35,6 +35,6 @@ public class Timer : MonoBehaviour
 
    public void LoudnessToGo()
    {
-      loudnessToGo = Random.Range(0, 51);
+      loudnessToGo = Random.Range(0, 81);
    }
 }
