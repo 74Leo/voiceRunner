@@ -10835,7 +10835,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fd720ea3c33aba43813712ffd8938e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: {fileID: 0}
+  timer: {fileID: 1103159473}
   loudness: 0
   Points:
   - {fileID: 1634931815}
