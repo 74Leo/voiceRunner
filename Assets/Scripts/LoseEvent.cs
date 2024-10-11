@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WinEvent : MonoBehaviour
+public class LoseEvent : MonoBehaviour
 {
     public int lapsCompleted = 0;
     public int lapsToWin = 3;
