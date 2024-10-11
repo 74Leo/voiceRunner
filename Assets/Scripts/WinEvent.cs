@@ -8,6 +8,8 @@ public class WinEvent : MonoBehaviour
     public int playerLapsCompleted = 0;
     public int botLapsCompleted = 0;
     public int lapsToWin = 2;
+    public int lapsToWinBot = 6;
+    
 
     public GameObject playerVictoryPanel;
     public GameObject botVictoryPanel;
@@ -31,9 +33,9 @@ public class WinEvent : MonoBehaviour
         if (other.gameObject.CompareTag("Bot"))
         {
             botLapsCompleted++;
-            Debug.Log("Le bot a franchi la ligne de victoire : " + botLapsCompleted + "/" + lapsToWin);
+            Debug.Log("Le bot a franchi la ligne de victoire : " + botLapsCompleted + "/" + lapsToWinBot);
 
-            if (botLapsCompleted == lapsToWin)
+            if (botLapsCompleted == lapsToWinBot)
             {
                 ShowPanel(botVictoryPanel);
                 Debug.Log("Défaite ! Le Bot a gagné la course.");
